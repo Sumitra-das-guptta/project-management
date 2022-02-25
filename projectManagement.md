@@ -112,7 +112,68 @@ Rather than using time or cost estimates, they will look at user stories and sto
 - T-shirt sizes: story points take the form of sizes: extra-small (XS), small (S), medium (M), large (L), and extra-large (XL). 
 - Dot voting: 
 
+Relative Sizing:
+- T-shirt Sizing
+- Finonacci series
+- Story points
+- Poker Planning
+- Agile Estimation
+- CoCoMo Model
+applied in 3 classes.
+1. organic mode: porject_size= 2-50kLOc, small
+size, nature of project=experience developers
+ex-payroll, inventory
+,innovation=little, deadline=not tight
+2. Semidetached mode: 50-300kLOC, medium size
+ex-db system, not tight deadlines
+3. Embedded: over 300kLOC, large project,real time system, 
+ex- ATMs, significant, tight deadline
+- Basic CoCoMo Model: E = effort applied
+D =  development time
+people required ,P = E/D
+ab,bb,cb,db are coefficients.
+have standerd values for this coefficients.
+- Intermediate CoCoMo Model:
+set of 15 additional predictors(cost drivers)
+cost drivers adjust nominal cost of porject to 
+actual project environment. 15 cost drivers:
+1. product attributes:
+    - s/w reliability
+    - database size
+    - product complexity
+2. computer attribute:
+    - execution time constants
+    - main storasge constraints
+    - virtual machine volatility
+    - computer turn around time
+3. personal attributes:
+    - analyst capability
+    - app experience
+    - programmer capability
+    - virtual machine experience
+    - programming language experience
+4. project attributes
+    - modern programming practices
+    - use of s/w tools
+    - required development schedule
 
+each cost driver is rated for the given project environment
+in terms of 
+very low, <1
+low, <1
+normal, 
+high, 
+very high
+,extra high
+E = ai(kloc)bi * EAF(effort adjustment factor)
+D = C(Ei)di
+EAF can be calculated by multiplying all the valuees
+that have been obtained after categorizing 
+each cost driver.
+coefficient values from the defined table.
+
+## task prioritization
+Organizing tasks in terms of importance relative to one another.
 ## Problems:
 project scope,
 project deliverables/ backlog,
