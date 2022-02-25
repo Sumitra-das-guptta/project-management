@@ -13,20 +13,19 @@ Patients, Doctors, Administator
 - medical payment and billing system(doctor's fees, test fees, bed )
 - Hospital room/bed booking
 - Check out from PMS
-## Non functinoal Requirements
+- Emergency Service
+## Non functinal Requirements
 - Security:
 
   ● Patient Identification: The system needs the patient to recognize herself or himself using the phone.
 
   ● Logon ID: Any users who make use of the system need to hold a Logon ID and password.
 
-  ● Modifications: Any modifications like insert, delete, update, etc. for the database can be synchronized quickly and executed only by the ward administrator.
+  ● Modifications: Any modifications like insert, delete, update, etc. for the database can be synchronized quickly and executed only by the administrator.
 
   ● Front Desk Staff Rights: The staff in the front desk can view any data in the patient Management system, add new patients record to the PMS but they don't have any rights alter any data in it.
 
   ● Administrator rights: The administrator can view as well as alter any information in the patient Management System.
-
-
 
 - Performance: 
 
@@ -35,9 +34,6 @@ Patients, Doctors, Administator
   ● Capacity: The system needs to support at least 1000 people at once.
 
   ● User-Interface: The user interface acknowledges within five seconds.
-
-  ● Conformity: The system needs to ensure that the guidelines of the Microsoft accessibilities are followed.
-
 
 
 - Maintainability: 
@@ -51,3 +47,14 @@ Patients, Doctors, Administator
 - Reliability: 
 
   ● Availability: The system is available all the time. 
+  
+  User Story:
+  1. As a user, I want to login the system,so that I can access my accessible interface.
+  2. As a patient, I want to register , so that I can enjoy the PMS service.
+  3. As a patient, I want to request for appointment to the chosen doctor.
+  4. As a patient, I want to request to book Bed in the hospital, so I can admit in the hospital and take the services.
+  5. As a patient, I want to see my medical history
+  6. As a patient, I want to see my e-prescription , lab test report and download it.
+  7. As a patient, I want to make payments through online.
+  8. As a patient, I want to book ambulance service for emergency case.
+  9. 
