@@ -14,6 +14,10 @@ Patients, Doctors, Administator
 - Hospital room/bed booking
 - Check out from PMS
 - Emergency Service
+
+### Registration process:
+Any new patient can fill up the registration form and create his/her own profile in PMS, Add his details information.
+Administrator accept the registration request and assign Patient ID.
 ## Non functinal Requirements
 - Security:
 
