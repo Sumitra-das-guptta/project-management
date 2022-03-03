@@ -1,7 +1,7 @@
 from datetime import datetime
 def convertion(date_with_time):
-    time_only = str(datetime.strptime(date_with_time,"%m-%d-%Y %H:%M:%S").date())
-    return time_only
+    date_only = str(datetime.strptime(date_with_time,"%m-%d-%Y %H:%M:%S").date())
+    return date_only
     
 weekend =  [
         "01-01-2022 00:00:00",
